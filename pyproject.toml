@@ -120,9 +120,10 @@ watermark = [
 # v3 Turbo on CUDA (PyTorch backend) — what the docker/Dockerfile.gpu image installs.
 # Install with: uv sync --extra cuda   (or: pip install vieneu[cuda])
 cuda = [
-    "torch",
     "transformers",
     "safetensors",
+    "torch==2.8.0",
+    "torchaudio==2.8.0",
 ]
 
 # LoRA fine-tuning of v3 Turbo (finetune/): GPU only.
