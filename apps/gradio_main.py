@@ -2062,7 +2062,8 @@ with gr.Blocks(theme=theme, css=css, title="VieNeu-TTS", head=head_html) as demo
                         gr.Markdown(
                             "Tải lên file **.srt tiếng Việt** (đã có lời và mốc thời gian): mỗi câu được đọc bằng "
                             "một giọng mẫu và ghép thành **một file audio** theo đúng mốc thời gian. Không dịch, không "
-                            "ghép video — cần các thứ đó thì dùng app VieNeu. Chỉ hỗ trợ VieNeu v3 (Turbo / Nano)."
+                            "ghép video — cần các thứ đó thì dùng <a href=\"https://www.vieneu.io/#/download\" target=\"_blank\">app VieNeu</a>. "
+                            "Chỉ hỗ trợ VieNeu v3 (Turbo / Nano)."
                         )
                         srt_file = gr.File(label="📝 File phụ đề .srt", file_types=[".srt"], file_count="single", type="filepath")
                         srt_voice = gr.Dropdown(choices=[], value=None, label="Giọng mẫu", allow_custom_value=True)
