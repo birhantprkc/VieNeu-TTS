@@ -56,7 +56,7 @@
     <td align="center">
       <b>Dubbing / Conversation</b><br><br>
       <video
-        src="https://github.com/user-attachments/assets/b99b52da-a70f-422d-9b55-1563d1e45b8c"
+        src="https://github.com/user-attachments/assets/28104b78-2d55-4914-85b7-5f425a7e99da"
         controls
         width="100%">
       </video>
